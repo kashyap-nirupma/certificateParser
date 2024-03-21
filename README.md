@@ -14,7 +14,9 @@ $ go version
 Confirm that the command prints the installed version of Go.
 
 ### To verify the certificate
-Decode the base64 certificate and add the decodded certificate to the certverify.go in the 
+Decode the base64 certificate and add the decodded certificate to the certverify.go as below: ensure that there is no extra spaces before and after.
+
+cert := []byte(`<Decoded-Certificate-Data>`)
 
 
 ### Run  the certverify.go
